@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="testes positive and negative login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishReRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishReRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,35 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="test/updatedProduct" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test/Product" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,8 +184,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CodefishRunner" />
-        <item itemvalue="JUnit.CodefishReRunner" />
         <item itemvalue="Cucumber Java.Scenario: Viewing product details" />
+        <item itemvalue="JUnit.CodefishReRunner" />
         <item itemvalue="Cucumber Java.Feature: Product" />
         <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
       </list>

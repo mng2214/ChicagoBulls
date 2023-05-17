@@ -1,4 +1,4 @@
-@product
+@product @smoke @regression
 Feature: User views multiple products
 
   Scenario: User should  be able to see products
@@ -13,4 +13,3 @@ Feature: User views multiple products
     And User should see the description of each product
     And User should see the price of each product
     And User should see an Add to Cart button for each product
-
