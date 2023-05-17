@@ -5,6 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import utils.ConfigReader;
 import utils.DriverHelper;
 
 public class CpdefishLogin {
@@ -14,7 +15,7 @@ public class CpdefishLogin {
 
     @When("User provides  correct credentials and login")
     public void userProvidesCorrectCredentialsAndLogin() {
-        loginPage.login();
+        loginPage.login(ConfigReader.readProperty("username"),ConfigReader.readProperty("password"));
     }
 
     @Then("User validates title {string}")
