@@ -22,30 +22,14 @@ public class CodeFishProduct {
         Assert.assertEquals(9, productPage.getProductCount());
     }
 
-    @Then("User should see the picture of each product")
-    public void user_should_see_the_picture_of_each_product()  {
-        Assert.assertEquals(9, productPage.getPicturesCount());
-    }
 
-
-    @Then("User should see the name of each product")
-    public void user_should_see_the_name_of_each_product() {
-        Assert.assertEquals(9, productPage.getProductNames());
-    }
-
-    @Then("User should see the description of each product")
-    public void user_should_see_the_description_of_each_product() {
-        Assert.assertEquals(9, productPage.getAllProductDescription());
-    }
-
-    @Then("User should see the price of each product")
-    public void user_should_see_the_price_of_each_product() {
-        Assert.assertEquals(9, productPage.getAllPrices());
-    }
-
-    @Then("User should see an Add to Cart button for each product")
-    public void user_should_see_an_add_to_cart_button_for_each_product() {
-        Assert.assertEquals(9, productPage.getAllToCartButtons());
+    @Then("User validates  {int} of: picture, names, descriptions, prices and Add to Cart")
+    public void userValidatesOfPictureNamesDescriptionsPricesAndAddToCart(int numOfItems) {
+        Assert.assertEquals(numOfItems,productPage.getAllToCartButtons());
+        Assert.assertEquals(numOfItems,productPage.getProductNames());
+        Assert.assertEquals(numOfItems,productPage.getPicturesCount());
+        Assert.assertEquals(numOfItems,productPage.getAllProductDescription());
+        Assert.assertEquals(numOfItems,productPage.getAllPrices());
     }
 }
 

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="testes positive and negative login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" afterDir="false" />
     </list>
@@ -43,6 +43,7 @@
           <entry type="LOCAL">
             <value>
               <list>
+                <branch-info repo="$PROJECT_DIR$" source="test/tryingToAutomateProduct" />
                 <branch-info repo="$PROJECT_DIR$" source="test/updatedProduct" />
               </list>
             </value>
@@ -52,7 +53,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test/Product" />
+        <entry key="$PROJECT_DIR$" value="test/updatedProduct" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,7 +92,7 @@
       <recent name="com.codefish.ui.stepdef" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CodefishRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Viewing product details">
     <configuration name="Feature: Product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" />
@@ -183,8 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CodefishRunner" />
         <item itemvalue="Cucumber Java.Scenario: Viewing product details" />
+        <item itemvalue="JUnit.CodefishRunner" />
         <item itemvalue="JUnit.CodefishReRunner" />
         <item itemvalue="Cucumber Java.Feature: Product" />
         <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
