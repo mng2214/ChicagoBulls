@@ -15,12 +15,17 @@ public class RegisterPage {
     WebElement password;
     @FindBy(xpath = "//button[contains(text(),'Register')]")
     WebElement registerButton;
+    @FindBy (xpath = "//input[@type='checkbox']")
+    WebElement adminRole;
 
     public void registerUser(String newUsername,String newPassword){
         this.username.clear();
         this.username.sendKeys(newUsername);
         this.password.clear();
         this.password.sendKeys(newPassword);
+        if(adminRole.isDisplayed()){
+            adminRole.click();
+        }
         registerButton.click();
     }
 }
