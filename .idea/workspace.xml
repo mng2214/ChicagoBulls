@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="testes positive and negative login">
+    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="Adding new US (Register)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +61,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -249,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684290925188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding new US (Register)">
+      <created>1684361909531</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684361909531</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding new US (Register)">
+      <created>1684362061922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684362061922</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +279,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -266,6 +300,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml fixed" />
     <MESSAGE value="testes positive and negative login" />
-    <option name="LAST_COMMIT_MESSAGE" value="testes positive and negative login" />
+    <MESSAGE value="Adding new US (Register)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new US (Register)" />
   </component>
 </project>
