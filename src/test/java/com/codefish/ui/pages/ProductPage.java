@@ -33,6 +33,15 @@ public class ProductPage {
     @FindBy(xpath = "//div[@class='card-body']//button")
     List<WebElement> allAddToCartButtons;
 
+    @FindBy(xpath = "//div[@class='card-body']//i")
+    WebElement checkMark;
+
+    @FindBy(xpath = "//a[.='Cart']")
+    WebElement cartButton;
+
+    @FindBy(xpath = "//a[.='chicagoBulls']")
+    WebElement chicagoBullsButton;
+
 
 
     public int getProductCount() {
@@ -58,5 +67,58 @@ public class ProductPage {
     public int getAllToCartButtons(){
         return allAddToCartButtons.size();
     }
+
+
+    //===============================================
+
+
+
+    public void addProductToTheCart(String productName, WebDriver driver) throws InterruptedException {
+
+        for (int i = 0; i < allProductNames.size(); i++) {
+            if (BrowserUtils.getText(allProductNames.get(i)).contains(productName)) {
+                BrowserUtils.scrollWithJS(driver, allAddToCartButtons.get(i));
+                Thread.sleep(3000);
+                BrowserUtils.clickWithJS(driver, allAddToCartButtons.get(i));
+
+            }
+        }
+
+
+    }
+
+    public void clickCartButton(WebDriver driver) {
+        BrowserUtils.clickWithJS(driver,chicagoBullsButton);
+        BrowserUtils.clickWithJS(driver,cartButton);
+    }
+
+    public void validateCheckMarkIsDisplayed() {
+
+        checkMark.isEnabled();
+        checkMark.isDisplayed();
+    }
+
+
+    public void addMultipleProductToTheCart(String firstItem,WebDriver driver) throws InterruptedException {
+
+        for (int i = 0; i < allProductNames.size(); i++) {
+            if (BrowserUtils.getText(allProductNames.get(i)).contains(firstItem)) {
+                BrowserUtils.scrollWithJS(driver, allAddToCartButtons.get(i));
+                Thread.sleep(3000);
+                BrowserUtils.clickWithJS(driver, allAddToCartButtons.get(i));
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }
 
