@@ -32,4 +32,12 @@ public class CodeFishRegister {
         Assert.assertEquals(ConfigReader.readProperty("newUsername"),loginPage.validateProfileName());
 
     }
+
+
+
+    @Then("User validates error message {string}")
+    public void userValidatesErrorMessageUsernameAlreadyTaken(String errorMessage) {
+        registerPage.registerUser(ConfigReader.readProperty("newUsername"),ConfigReader.readProperty("newPassword"));
+        Assert.assertEquals(errorMessage,registerPage.registeredUserValidation());
+    }
 }
