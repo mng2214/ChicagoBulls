@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="Adding new US (Register)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishRegister.java" afterDir="false" />
@@ -16,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Tue-May-16-21-31-48-CDT-2023.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Register.feature" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +32,35 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="test/updatedProduct" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test/Product" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,9 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="Cucumber Java.Scenario: User should  be able to see products" />
         <item itemvalue="Cucumber Java.Scenario: User navigates to Codefish and Register New User" />
         <item itemvalue="Cucumber Java.Scenario: User navigates to Codefish and Register Existing User" />
+
         <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
         <item itemvalue="Cucumber Java.Scenario: Positive login functionality" />
       </list>
