@@ -16,7 +16,7 @@ Feature: Codefish login functionality
       | wrong        | 12345    | Authentication failed |
       | chicagoBulls |          | Authentication failed |
       |              | 12345    | Authentication failed |
-     #|              |          | Authentication failed |
-    # | admin        |          |                       |
-     #|              | admin    |                       |
+      |              |          | Authentication failed |
+      | admin        |          | Authentication failed |
+      |              | admin    | Authentication failed |
 
