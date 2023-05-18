@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="testes positive and negative login">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" afterDir="false" />
     </list>
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +21,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-
     <excluded-from-favorite>
       <branch-storage>
         <map>
@@ -57,7 +51,6 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="test/updatedProduct" />
-
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,10 +92,8 @@
       <recent name="com.codefish.ui.stepdef" />
     </key>
   </component>
-
-  <component name="RunManager" selected="Cucumber Java.Scenario: Viewing product details">
+  <component name="RunManager" selected="Cucumber Java.Feature: Product">
     <configuration name="Feature: Product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
@@ -199,13 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
-
-        <item itemvalue="Cucumber Java.Scenario: Viewing product details" />
         <item itemvalue="JUnit.CodefishRunner" />
-        <item itemvalue="JUnit.CodefishReRunner" />
         <item itemvalue="Cucumber Java.Feature: Product" />
-
-        <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
         <item itemvalue="Cucumber Java.Scenario: User should  be able to see products" />
         <item itemvalue="Cucumber Java.Scenario: User navigates to Codefish and Register New User" />
         <item itemvalue="Cucumber Java.Scenario: User navigates to Codefish and Register Existing User" />
