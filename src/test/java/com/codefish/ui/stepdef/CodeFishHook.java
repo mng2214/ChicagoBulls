@@ -20,6 +20,7 @@ public class CodeFishHook {
     public void tearDown(Scenario scenario) {
         BrowserUtils.getScreenShotForCucumber(driver, scenario);
         driver.quit();
+
     }
 
 }

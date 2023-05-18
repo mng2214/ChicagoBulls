@@ -22,12 +22,17 @@ public class LoginPage {
     WebElement errorMessage;
     @FindBy(xpath = "//a[.='Logout']")
     WebElement logoutButton;
+    @FindBy(xpath = "//button[@name='regbtn']")
+    WebElement registerButton;
+    @FindBy(xpath = "//a[@href='/profile']")
+    WebElement profileButton;
 
-    public void login (){
+
+    public void login (String username,String password){
         this.username.clear();
-        this.username.sendKeys(ConfigReader.readProperty("username"));
+        this.username.sendKeys(username);
         this.password.clear();
-        this.password.sendKeys(ConfigReader.readProperty("username"));
+        this.password.sendKeys(password);
         loginButton.click();
     }
 
@@ -40,16 +45,25 @@ public class LoginPage {
         logoutButton.click();
     }
 
-    public void loginNegative(String username, String password) {
-        this.username.clear();
-        this.username.sendKeys(username);
-        this.password.clear();
-        this.password.sendKeys(password);
-        loginButton.click();
-    }
+//    public void loginNegative(String username, String password) {
+//        this.username.clear();
+//        this.username.sendKeys(username);
+//        this.password.clear();
+//        this.password.sendKeys(password);
+//        loginButton.click();
+//    }
 
     public String loginValidateMessage() {
         return errorMessage.getText();
     }
+    public void registerUserFunctionality(){
+        this.registerButton.click();
+    }
+
+    public String validateProfileName(){
+        return this.profileButton.getText().trim();
+    }
 
 }
+
+
