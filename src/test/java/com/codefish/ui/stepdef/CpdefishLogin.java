@@ -15,7 +15,7 @@ public class CpdefishLogin {
 
     @When("User provides  correct credentials and login")
     public void userProvidesCorrectCredentialsAndLogin() {
-        loginPage.login(ConfigReader.readProperty("username"),ConfigReader.readProperty("password"));
+        loginPage.login(ConfigReader.readProperty("newUsername"),ConfigReader.readProperty("newPassword"));
     }
 
     @Then("User validates title {string}")
@@ -26,7 +26,7 @@ public class CpdefishLogin {
 
     @When("User provides  {string} and {string} and login")
     public void userProvidesUsernameAndPasswordAndLogin(String username, String password) {
-        loginPage.loginNegative(username, password);
+        loginPage.login(username, password);
     }
 
     @Then("User validates message {string}")

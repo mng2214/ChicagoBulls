@@ -45,13 +45,13 @@ public class LoginPage {
         logoutButton.click();
     }
 
-    public void loginNegative(String username, String password) {
-        this.username.clear();
-        this.username.sendKeys(username);
-        this.password.clear();
-        this.password.sendKeys(password);
-        loginButton.click();
-    }
+//    public void loginNegative(String username, String password) {
+//        this.username.clear();
+//        this.username.sendKeys(username);
+//        this.password.clear();
+//        this.password.sendKeys(password);
+//        loginButton.click();
+//    }
 
     public String loginValidateMessage() {
         return errorMessage.getText();
