@@ -31,6 +31,13 @@ public class CodeFishProduct {
         Assert.assertEquals(numOfItems,productPage.getAllProductDescription());
         Assert.assertEquals(numOfItems,productPage.getAllPrices());
     }
+
+
+
+
+
+
+
 }
 
 

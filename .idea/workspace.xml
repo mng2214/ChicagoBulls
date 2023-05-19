@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="testes positive and negative login">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_17_2023_7_25_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_17_2023_7_25_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" afterDir="false" />
     </list>
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,29 +23,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
-
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <favorite-branches>
       <branch-storage>
         <map>
           <entry type="LOCAL">
             <value>
               <list>
-                <branch-info repo="$PROJECT_DIR$" source="test/tryingToAutomateProduct" />
-                <branch-info repo="$PROJECT_DIR$" source="test/updatedProduct" />
+                <branch-info repo="$PROJECT_DIR$" source="test/cart" />
               </list>
             </value>
           </entry>
@@ -56,8 +42,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test/updatedProduct" />
-
+        <entry key="$PROJECT_DIR$" value="test/cart" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,10 +84,28 @@
       <recent name="com.codefish.ui.stepdef" />
     </key>
   </component>
-
-  <component name="RunManager" selected="Cucumber Java.Scenario: Viewing product details">
-    <configuration name="Feature: Product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-
+  <component name="RunManager" selected="Cucumber Java.Scenario: User can view selected products with their details (1)">
+    <configuration name="Scenario: Add product to cart and display check mark on the button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature" />
+      <option name="GLUE" value="com.codefish.ui.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="chicagoBulls_team1" />
+      <option name="NAME_FILTER" value="^Add product to cart and display check mark on the button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add product to cart and display check mark on the button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add product to cart and display check mark on the button" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Negative login functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
@@ -122,15 +125,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User navigates to Codefish and Register Existing User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Positive login functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Register.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^User navigates to Codefish and Register Existing User$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User navigates to Codefish and Register Existing User$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User navigates to Codefish and Register Existing User" />
+      <option name="NAME_FILTER" value="^Positive login functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positive login functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Positive login functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,15 +145,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User navigates to Codefish and Register New User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can view selected products with their details (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Register.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^User navigates to Codefish and Register New User$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User navigates to Codefish and Register New User$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User navigates to Codefish and Register New User" />
+      <option name="NAME_FILTER" value="^User can view selected products with their details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can view selected products with their details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can view selected products with their details" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,15 +165,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User should  be able to see products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can view selected products with their details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/AddToCart.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^User should  be able to see products$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should  be able to see products$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User should  be able to see products" />
+      <option name="NAME_FILTER" value="^User can view selected products with their details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can view selected products with their details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can view selected products with their details" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -178,37 +181,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodefishRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chicagoBulls_team1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codefish.ui.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.codefish.ui.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.codefish.ui.runners.CodefishRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-
-        <item itemvalue="Cucumber Java.Scenario: Viewing product details" />
-        <item itemvalue="JUnit.CodefishRunner" />
-        <item itemvalue="JUnit.CodefishReRunner" />
-        <item itemvalue="Cucumber Java.Feature: Product" />
-
+        <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Add product to cart and display check mark on the button" />
+        <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details" />
+        <item itemvalue="Cucumber Java.Scenario: Positive login functionality" />
         <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
-        <item itemvalue="Cucumber Java.Scenario: User should  be able to see products" />
-        <item itemvalue="Cucumber Java.Scenario: User navigates to Codefish and Register New User" />
-        <item itemvalue="Cucumber Java.Scenario: User navigates to Codefish and Register Existing User" />
       </list>
     </recent_temporary>
   </component>
@@ -270,42 +253,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684290925188</updated>
     </task>
-    <task id="LOCAL-00008" summary="Adding new US (Register)">
-      <created>1684361909531</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1684361909531</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Adding new US (Register)">
-      <created>1684362061922</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1684362061922</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Adding new US (Register)">
-      <created>1684369504549</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1684369504549</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Adding new US (Register)">
-      <created>1684369679973</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684369679973</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adding new US (Register)">
-      <created>1684370444228</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1684370444228</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,19 +261,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -334,7 +270,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml fixed" />
     <MESSAGE value="testes positive and negative login" />
-    <MESSAGE value="Adding new US (Register)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new US (Register)" />
+    <option name="LAST_COMMIT_MESSAGE" value="testes positive and negative login" />
   </component>
 </project>
