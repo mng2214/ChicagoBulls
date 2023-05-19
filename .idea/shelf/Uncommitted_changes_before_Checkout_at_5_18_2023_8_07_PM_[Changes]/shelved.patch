@@ -1,0 +1,154 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e0a5a556-5e93-4666-bcea-1ec8828efe64\" name=\"Changes\" comment=\"testes positive and negative login\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_17_2023_7_25_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_17_2023_7_25_PM__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"test/cart\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"test/cart\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ptk1OMJOeHRvjTSqh8lXV7HcFB\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/BASE/CODEFISH/MYPROJECTS/chicagoBulls_team1/src/test/resources/features/ui&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;ChangesTree.GroupingKeys&quot;: [\r\n      &quot;directory&quot;,\r\n      &quot;module&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\BASE\\CODEFISH\\MYPROJECTS\\chicagoBulls_team1\\src\\test\\resources\\features\\ui\" />\r\n      <recent name=\"C:\\BASE\\CODEFISH\\MYPROJECTS\\chicagoBulls_team1\\src\\test\\java\\com\\codefish\\ui\\runners\" />\r\n      <recent name=\"C:\\BASE\\CODEFISH\\MYPROJECTS\\chicagoBulls_team1\" />\r\n      <recent name=\"C:\\BASE\\CODEFISH\\MYPROJECTS\\chicagoBulls_team1\\src\\test\\java\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.codefish.ui.stepdef\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Cucumber Java.Scenario: User can view selected products with their details (1)\">\r\n    <configuration name=\"Scenario: Add product to cart and display check mark on the button\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature\" />\r\n      <option name=\"GLUE\" value=\"com.codefish.ui.stepdef\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"chicagoBulls_team1\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Add product to cart and display check mark on the button$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add product to cart and display check mark on the button$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Add product to cart and display check mark on the button\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Negative login functionality\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/ui/Login.feature\" />\r\n      <option name=\"GLUE\" value=\"com.codefish.ui.stepdef\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"chicagoBulls_team1\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Negative login functionality$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative login functionality$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Negative login functionality\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Positive login functionality\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/ui/Login.feature\" />\r\n      <option name=\"GLUE\" value=\"com.codefish.ui.stepdef\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"chicagoBulls_team1\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Positive login functionality$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positive login functionality$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Positive login functionality\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: User can view selected products with their details (1)\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature\" />\r\n      <option name=\"GLUE\" value=\"com.codefish.ui.stepdef\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"chicagoBulls_team1\" />\r\n      <option name=\"NAME_FILTER\" value=\"^User can view selected products with their details$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can view selected products with their details$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: User can view selected products with their details\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: User can view selected products with their details\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/ui/AddToCart.feature\" />\r\n      <option name=\"GLUE\" value=\"com.codefish.ui.stepdef\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\r\n      <module name=\"chicagoBulls_team1\" />\r\n      <option name=\"NAME_FILTER\" value=\"^User can view selected products with their details$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can view selected products with their details$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: User can view selected products with their details\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Cucumber Java.Scenario: User can view selected products with their details (1)\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Add product to cart and display check mark on the button\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: User can view selected products with their details\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Positive login functionality\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Negative login functionality\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e0a5a556-5e93-4666-bcea-1ec8828efe64\" name=\"Changes\" comment=\"\" />\r\n      <created>1684283550154</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684283550154</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xml fixed\">\r\n      <created>1684285855705</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684285855705</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"xml fixed\">\r\n      <created>1684285994784</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684285994784</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"xml fixed\">\r\n      <created>1684286178060</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684286178060</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"xml fixed\">\r\n      <created>1684286276285</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684286276285</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"xml fixed\">\r\n      <created>1684286351830</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684286351830</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"testes positive and negative login\">\r\n      <created>1684290739292</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684290739292</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"testes positive and negative login\">\r\n      <created>1684290925188</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684290925188</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xml fixed\" />\r\n    <MESSAGE value=\"testes positive and negative login\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"testes positive and negative login\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a8fbac3a596fa4c3b821ade3679c12acd43fda59)
++++ b/.idea/workspace.xml	(date 1684454572161)
+@@ -5,11 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="testes positive and negative login">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_17_2023_7_25_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_17_2023_7_25_PM__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishProduct.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Product.feature" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -22,18 +19,29 @@
+         <option value="Class" />
+       </list>
+     </option>
+-  </component>
+-  <component name="Git.Merge.Settings">
+-    <option name="BRANCH" value="master" />
+   </component>
+   <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="master" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
+     <favorite-branches>
+       <branch-storage>
+         <map>
+           <entry type="LOCAL">
+             <value>
+               <list>
+-                <branch-info repo="$PROJECT_DIR$" source="test/cart" />
++                <branch-info repo="$PROJECT_DIR$" source="test/tryingToAutomateProduct" />
++                <branch-info repo="$PROJECT_DIR$" source="test/updatedProduct" />
+               </list>
+             </value>
+           </entry>
+@@ -42,7 +50,7 @@
+     </favorite-branches>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="test/cart" />
++        <entry key="$PROJECT_DIR$" value="test/updatedProduct" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -188,10 +196,10 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details (1)" />
+-        <item itemvalue="Cucumber Java.Scenario: Add product to cart and display check mark on the button" />
+         <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details" />
+         <item itemvalue="Cucumber Java.Scenario: Positive login functionality" />
+         <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
++        <item itemvalue="Cucumber Java.Scenario: Add product to cart and display check mark on the button" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -253,7 +261,42 @@
+       <option name="project" value="LOCAL" />
+       <updated>1684290925188</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Adding new US (Register)">
++      <created>1684361909531</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1684361909531</updated>
++    </task>
++    <task id="LOCAL-00009" summary="Adding new US (Register)">
++      <created>1684362061922</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1684362061922</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Adding new US (Register)">
++      <created>1684369504549</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1684369504549</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Adding new US (Register)">
++      <created>1684369679973</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1684369679973</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Adding new US (Register)">
++      <created>1684370444228</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1684370444228</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -261,7 +304,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -270,6 +325,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="xml fixed" />
+     <MESSAGE value="testes positive and negative login" />
+-    <option name="LAST_COMMIT_MESSAGE" value="testes positive and negative login" />
++    <MESSAGE value="Adding new US (Register)" />
++    <option name="LAST_COMMIT_MESSAGE" value="Adding new US (Register)" />
+   </component>
+ </project>
+\ No newline at end of file
