@@ -3,6 +3,7 @@ package com.codefish.ui.pages;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.BrowserUtils;
@@ -76,6 +77,7 @@ public class ProductPage {
     public void addProductToTheCart(String productName, WebDriver driver) throws InterruptedException {
 
         for (int i = 0; i < allProductNames.size(); i++) {
+
             if (BrowserUtils.getText(allProductNames.get(i)).contains(productName)) {
                 BrowserUtils.scrollWithJS(driver, allAddToCartButtons.get(i));
                 Thread.sleep(3000);

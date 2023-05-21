@@ -27,23 +27,29 @@ public class CartPage {
 
     List<WebElement> allRemoveButton;
 
+    @FindBy(xpath = "//button[@type='button']")
+    WebElement removeButton;
+    @FindBy(xpath = "//div[@role='alert']")
+    WebElement emptyCartMessage;
+
 
 
 
     public void validateAllProductsNames() throws InterruptedException {
 
-        List<String> expectedProductNames = Arrays.asList("Sputnik Vaccine","Paracetamol");
+        List<String> expectedProductNames = Arrays.asList("Paracetamol","Sputnik Vaccine");
         Thread.sleep(3000);
         for (int i = 0; i < allProductsName.size(); i++) {
             System.out.println(BrowserUtils.getText(allProductsName.get(i)));
             Assert.assertEquals(expectedProductNames.get(i), BrowserUtils.getText(allProductsName.get(i)));
 
         }
+        Thread.sleep(3000);
     }
 
     public void validateAllProductPrices(){
 
-        List<String> expectedProductPrice = Arrays.asList("6.59","10.29");
+        List<String> expectedProductPrice = Arrays.asList("10.29","6.59");
 
         for (int i=0; i < allProductPrice.size();i++){
             System.out.println(BrowserUtils.getText(allProductPrice.get(i)));
@@ -54,6 +60,17 @@ public class CartPage {
 
 
 
+    }
+
+    public void removeProduct() throws InterruptedException {
+        Thread.sleep(3000);
+        removeButton.click();
+
+    }
+
+    public void validateCartMessage(String expectedMessage) throws InterruptedException {
+        Thread.sleep(3000);
+        Assert.assertEquals(expectedMessage,BrowserUtils.getText(emptyCartMessage));
     }
 
 
