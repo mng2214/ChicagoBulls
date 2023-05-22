@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Adding CategoryProduct features">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishCategoryProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-49-48-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-01-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-17-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-28-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-56-48-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-00-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-14-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-26-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/codefishProject.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ui/ProductCategory.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Updating Shopping Cart Assertions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684638499845</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" Updating Shopping Cart Assertions">
+      <created>1684730894394</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684730894394</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +345,7 @@
     <MESSAGE value="testes positive and negative login" />
     <MESSAGE value="Adding new US (Register)" />
     <MESSAGE value=" Adding CategoryProduct features" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Adding CategoryProduct features" />
+    <MESSAGE value=" Updating Shopping Cart Assertions" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Updating Shopping Cart Assertions" />
   </component>
 </project>
