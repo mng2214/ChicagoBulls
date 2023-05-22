@@ -38,4 +38,6 @@ public class RegisterPage {
     public String registeredUserValidation () {
         return BrowserUtils.getText(alreadyRegisteredErrorMessage);
     }
+
+
 }
