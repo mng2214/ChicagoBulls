@@ -1,0 +1,80 @@
+Index: src/test/java/com/codefish/ui/pages/CartPage.java
+===================================================================
+diff --git a/src/test/java/com/codefish/ui/pages/CartPage.java b/src/test/java/com/codefish/ui/pages/CartPage.java
+--- a/src/test/java/com/codefish/ui/pages/CartPage.java	
++++ b/src/test/java/com/codefish/ui/pages/CartPage.java	
+@@ -27,12 +27,13 @@
+ 
+     List<WebElement> allRemoveButton;
+ 
+-
++    @FindBy(xpath = "//button[.='Remove']")
++    List<WebElement> removeButton;
+ 
+ 
+     public void validateAllProductsNames() throws InterruptedException {
+ 
+-        List<String> expectedProductNames = Arrays.asList("Sputnik Vaccine","Paracetamol");
++        List<String> expectedProductNames = Arrays.asList( "Paracetamol","Sputnik Vaccine");
+         Thread.sleep(3000);
+         for (int i = 0; i < allProductsName.size(); i++) {
+             System.out.println(BrowserUtils.getText(allProductsName.get(i)));
+@@ -41,21 +42,16 @@
+         }
+     }
+ 
+-    public void validateAllProductPrices(){
++    public void validateAllProductPrices() throws InterruptedException {
+ 
+-        List<String> expectedProductPrice = Arrays.asList("6.59","10.29");
++        List<String> expectedProductPrice = Arrays.asList("10.29","6.59");
+ 
+-        for (int i=0; i < allProductPrice.size();i++){
++        for (int i = 0; i < allProductPrice.size(); i++) {
+             System.out.println(BrowserUtils.getText(allProductPrice.get(i)));
+-            Assert.assertEquals(expectedProductPrice.get(i),BrowserUtils.getText(allProductPrice.get(i)));
+-
+-
++            Assert.assertEquals(expectedProductPrice.get(i), BrowserUtils.getText(allProductPrice.get(i)));
+         }
+ 
+-
+-
+     }
+-
+ 
+ 
+ 
+Index: src/test/java/com/codefish/ui/stepdef/CodeFishCart.java
+===================================================================
+diff --git a/src/test/java/com/codefish/ui/stepdef/CodeFishCart.java b/src/test/java/com/codefish/ui/stepdef/CodeFishCart.java
+--- a/src/test/java/com/codefish/ui/stepdef/CodeFishCart.java	
++++ b/src/test/java/com/codefish/ui/stepdef/CodeFishCart.java	
+@@ -52,9 +52,9 @@
+ 
+     @When("User clicks the Add to cart button for multiple product")
+     public void user_clicks_the_add_to_cart_button_for_multiple_product(DataTable dataTable) throws InterruptedException {
++
+         List<Map<String, String>> products = dataTable.asMaps(String.class, String.class);
+         int rowCount = products.size();
+-
+         for (int i = 0; i < rowCount; i++) {
+             Map<String, String> product = products.get(i);
+             String firstItem = product.get("firstItem");
+Index: src/test/resources/features/ui/Cart.feature
+===================================================================
+diff --git a/src/test/resources/features/ui/Cart.feature b/src/test/resources/features/ui/Cart.feature
+--- a/src/test/resources/features/ui/Cart.feature	
++++ b/src/test/resources/features/ui/Cart.feature	
+@@ -5,8 +5,9 @@
+     When the user clicks the Add to cart button for '<product>'
+     Then a check mark should be displayed on the Add to cart button
+     Examples:
+-      | product     |
+-      | LCD Digital |
++      | product        |
++      | NIKON DIAPHOT |
++
+ 
+ 
+   Scenario: User can view selected products with their details

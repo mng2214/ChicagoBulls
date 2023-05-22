@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Adding CategoryProduct features">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishCategoryProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-49-48-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-01-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-17-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-28-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-56-48-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-00-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-14-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-26-CDT-2023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/codefishProject.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ui/ProductCategory.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Updating Shopping Cart Assertions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,19 +65,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/alenanikolaeva/IdeaProjects/ChicagoBulls1/src/test/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alenanikolaeva/IdeaProjects/ChicagoBulls1/src/test/resources&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -106,15 +90,16 @@
       <recent name="com.codefish.ui.stepdef" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: ProductCategory">
-    <configuration name="Feature: ProductCategory" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User can view selected products with their details (1)">
+    <configuration name="Scenario: Negative login functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/ProductCategory.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: ProductCategory" />
+      <option name="NAME_FILTER" value="^Negative login functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative login functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Negative login functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -126,15 +111,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add product to cart and display check mark on the button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Positive login functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^Add product to cart and display check mark on the button$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add product to cart and display check mark on the button$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add product to cart and display check mark on the button" />
+      <option name="NAME_FILTER" value="^Positive login functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positive login functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Positive login functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -214,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: ProductCategory" />
-        <item itemvalue="JUnit.CodefishRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Add product to cart and display check mark on the button" />
         <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details (1)" />
+        <item itemvalue="JUnit.CodefishRunner" />
         <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details" />
+        <item itemvalue="Cucumber Java.Scenario: Positive login functionality" />
+        <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684638499845</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" Updating Shopping Cart Assertions">
+      <created>1684730894394</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684730894394</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,6 +345,7 @@
     <MESSAGE value="testes positive and negative login" />
     <MESSAGE value="Adding new US (Register)" />
     <MESSAGE value=" Adding CategoryProduct features" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Adding CategoryProduct features" />
+    <MESSAGE value=" Updating Shopping Cart Assertions" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Updating Shopping Cart Assertions" />
   </component>
 </project>
