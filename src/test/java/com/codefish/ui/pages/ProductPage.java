@@ -104,7 +104,6 @@ public class ProductPage {
         for (int i = 0; i < allProductNames.size(); i++) {
             if (BrowserUtils.getText(allProductNames.get(i)).contains(firstItem)) {
                 BrowserUtils.scrollWithJS(driver, allAddToCartButtons.get(i));
-                Thread.sleep(3000);
                 BrowserUtils.clickWithJS(driver, allAddToCartButtons.get(i));
 
             }

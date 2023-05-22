@@ -79,6 +79,7 @@ public class CodeFishCart {
         Thread.sleep(2000);
         cartPage.validateAllProductsNames();
         cartPage.validateAllProductPrices();
+        cartPage.validateRemoveButtonVisible();
     }
 
 

@@ -8,13 +8,13 @@ Feature: Shopping Cart Functionality
       | product     |
       | LCD Digital |
 
-
+@cartFunctionality
   Scenario: User can view selected products with their details
 
     Given the user is on the product page
     When  User clicks the Add to cart button for multiple product
-      | firstItem   | secondItem      |
-      | Paracetamol | Sputnik Vaccine |
+      | firstItem       | secondItem  |
+      | Sputnik Vaccine | Paracetamol |
     And User navigates to the cart page
     Then User validate all products information name,price and removeButton
 

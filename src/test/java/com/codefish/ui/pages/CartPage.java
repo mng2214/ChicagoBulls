@@ -28,11 +28,9 @@ public class CartPage {
     List<WebElement> allRemoveButton;
 
 
-
-
     public void validateAllProductsNames() throws InterruptedException {
 
-        List<String> expectedProductNames = Arrays.asList("Sputnik Vaccine","Paracetamol");
+        List<String> expectedProductNames = Arrays.asList("Sputnik Vaccine", "Paracetamol");
         Thread.sleep(3000);
         for (int i = 0; i < allProductsName.size(); i++) {
             System.out.println(BrowserUtils.getText(allProductsName.get(i)));
@@ -41,23 +39,33 @@ public class CartPage {
         }
     }
 
-    public void validateAllProductPrices(){
+    public void validateAllProductPrices() {
 
-        List<String> expectedProductPrice = Arrays.asList("6.59","10.29");
+        List<String> expectedProductPrice = Arrays.asList("6.59", "10.29");
 
-        for (int i=0; i < allProductPrice.size();i++){
+        for (int i = 0; i < allProductPrice.size(); i++) {
             System.out.println(BrowserUtils.getText(allProductPrice.get(i)));
-            Assert.assertEquals(expectedProductPrice.get(i),BrowserUtils.getText(allProductPrice.get(i)));
+            Assert.assertEquals(expectedProductPrice.get(i), BrowserUtils.getText(allProductPrice.get(i)));
 
 
         }
+    }
 
+    public void validateRemoveButtonVisible() {
 
+        for (int i = 0; i < allRemoveButton.size(); i++) {
+            System.out.println(allRemoveButton.get(i).getText());
+            Assert.assertTrue(allRemoveButton.get(i).getText().equals("Remove"));
+
+        }
 
     }
 
 
-
-
-
 }
+
+
+
+
+
+
