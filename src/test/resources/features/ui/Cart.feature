@@ -1,5 +1,6 @@
-Feature: Shopping Cart Functionality
 
+Feature: Shopping Cart Functionality
+  @cart
   Scenario Outline:  Add product to cart and display check mark on the button
     Given the user is on the product page
     When the user clicks the Add to cart button for '<product>'

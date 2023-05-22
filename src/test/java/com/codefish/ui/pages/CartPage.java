@@ -9,6 +9,7 @@ import utils.BrowserUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class CartPage {
@@ -28,36 +29,31 @@ public class CartPage {
     List<WebElement> allRemoveButton;
 
 
-
-
     public void validateAllProductsNames() throws InterruptedException {
 
-        List<String> expectedProductNames = Arrays.asList("Sputnik Vaccine","Paracetamol");
+        List<String> expectedProductNames = Arrays.asList("Sputnik Vaccine", "Paracetamol");
+        List<String> actualProductsNames = new ArrayList<>();
+
         Thread.sleep(3000);
         for (int i = 0; i < allProductsName.size(); i++) {
-            System.out.println(BrowserUtils.getText(allProductsName.get(i)));
-            Assert.assertEquals(expectedProductNames.get(i), BrowserUtils.getText(allProductsName.get(i)));
-
+            actualProductsNames.add(BrowserUtils.getText(allProductsName.get(i)));
         }
+        Collections.sort(expectedProductNames);
+        Collections.sort(actualProductsNames);
+        Assert.assertEquals(expectedProductNames, actualProductsNames);
     }
 
-    public void validateAllProductPrices(){
+    public void validateAllProductPrices() {
 
-        List<String> expectedProductPrice = Arrays.asList("6.59","10.29");
-
-        for (int i=0; i < allProductPrice.size();i++){
-            System.out.println(BrowserUtils.getText(allProductPrice.get(i)));
-            Assert.assertEquals(expectedProductPrice.get(i),BrowserUtils.getText(allProductPrice.get(i)));
-
-
+        List<Double> expectedProductPrice = Arrays.asList(6.59, 10.29);
+        List<Double> actualProductsPrice = new ArrayList<>();
+        for (int i = 0; i < allProductPrice.size(); i++) {
+            actualProductsPrice.add(Double.parseDouble(BrowserUtils.getText(allProductPrice.get(i))));
         }
-
-
-
+        Collections.sort(expectedProductPrice);
+        Collections.sort(actualProductsPrice);
+        Assert.assertEquals(expectedProductPrice, actualProductsPrice);
     }
-
-
-
 
 
 }

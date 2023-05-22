@@ -76,6 +76,7 @@ public class ProductPage {
     public void addProductToTheCart(String productName, WebDriver driver) throws InterruptedException {
 
         for (int i = 0; i < allProductNames.size(); i++) {
+
             if (BrowserUtils.getText(allProductNames.get(i)).contains(productName)) {
                 BrowserUtils.scrollWithJS(driver, allAddToCartButtons.get(i));
                 Thread.sleep(3000);
@@ -88,7 +89,7 @@ public class ProductPage {
     }
 
     public void clickCartButton(WebDriver driver) {
-        BrowserUtils.clickWithJS(driver,chicagoBullsButton);
+       BrowserUtils.clickWithJS(driver,chicagoBullsButton);
         BrowserUtils.clickWithJS(driver,cartButton);
     }
 

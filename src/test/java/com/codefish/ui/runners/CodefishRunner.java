@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/ui",
         glue = "com/codefish/ui/stepdef",
         dryRun = false,
-        tags = "@product",
+       // tags = "@cart",
         plugin = {"pretty", "html:target/uiReport.html", "rerun:target/uiFailedTests.txt"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
