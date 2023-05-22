@@ -55,5 +55,12 @@ public class CartPage {
         Assert.assertEquals(expectedProductPrice, actualProductsPrice);
     }
 
+    public void validateRemoveButtonVisible() {
+        for (int i = 0; i < allRemoveButton.size(); i++) {
+            System.out.println(allRemoveButton.get(i).getText());
+            Assert.assertTrue(allRemoveButton.get(i).getText().equals("Remove"));
+        }
+    }
+
 
 }

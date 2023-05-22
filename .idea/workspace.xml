@@ -4,27 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Updating Shopping Cart features">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_17_2023_10_53_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_17_2023_10_53_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_17_2023_10_58_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_17_2023_10_58_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_17_2023_11_02_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_17_2023_11_02_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_01_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_01_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_07_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_07_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_10_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_10_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_17_2023_1_58_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_17_2023_1_58_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_17_2023_9_31_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_17_2023_9_31_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Adding CategoryProduct features">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishCategoryProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-49-48-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-01-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-17-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-50-28-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-56-48-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-00-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-14-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenshot/Sat-May-20-21-57-26-CDT-2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/codefishProject.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ui/ProductCategory.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/runners/CodefishRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefish/ui/stepdef/CodeFishHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Wed-May-17-19-36-22-CDT-2023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Wed-May-17-19-36-36-CDT-2023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Wed-May-17-19-36-50-CDT-2023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Wed-May-17-19-38-40-CDT-2023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Wed-May-17-19-38-53-CDT-2023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/screenshot/Wed-May-17-19-39-07-CDT-2023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ui/Cart.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +33,28 @@
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="master" />
-  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <favorite-branches>
       <branch-storage>
         <map>
           <entry type="LOCAL">
             <value>
               <list>
-                <branch-info repo="$PROJECT_DIR$" source="test/cart" />
+                <branch-info repo="$PROJECT_DIR$" source="test/tryingToAutomateProduct" />
+                <branch-info repo="$PROJECT_DIR$" source="test/updatedProduct" />
               </list>
             </value>
           </entry>
@@ -79,7 +85,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/BASE/CODEFISH/MYPROJECTS/chicagoBulls_team1/src/test/resources/features/ui&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/alenanikolaeva/IdeaProjects/ChicagoBulls1/src/test/resources&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -90,6 +96,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="C:\BASE\CODEFISH\MYPROJECTS\chicagoBulls_team1\src\test\resources\features\ui" />
       <recent name="C:\BASE\CODEFISH\MYPROJECTS\chicagoBulls_team1\src\test\java\com\codefish\ui\runners" />
       <recent name="C:\BASE\CODEFISH\MYPROJECTS\chicagoBulls_team1" />
@@ -195,6 +202,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details (1)" />
@@ -263,20 +281,69 @@
       <option name="project" value="LOCAL" />
       <updated>1684290925188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding new US (Register)">
+      <created>1684361909531</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684361909531</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding new US (Register)">
+      <created>1684362061922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684362061922</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding new US (Register)">
+      <created>1684369504549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684369504549</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding new US (Register)">
+      <created>1684369679973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684369679973</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding new US (Register)">
+      <created>1684370444228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684370444228</updated>
+    </task>
+    <task id="LOCAL-00013" summary=" Adding CategoryProduct features">
+      <created>1684638499844</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684638499845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="02acfae2-d8b6-465f-8381-7d6cf666d418">
-          <value>
-            <State />
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -285,6 +352,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml fixed" />
     <MESSAGE value="testes positive and negative login" />
-    <option name="LAST_COMMIT_MESSAGE" value="testes positive and negative login" />
+    <MESSAGE value="Adding new US (Register)" />
+    <MESSAGE value=" Adding CategoryProduct features" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Adding CategoryProduct features" />
   </component>
 </project>
