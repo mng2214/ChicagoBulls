@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment=" Updating Shopping Cart Assertions" />
+    <list default="true" id="e0a5a556-5e93-4666-bcea-1ec8828efe64" name="Changes" comment="Api register regular user">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_10_26_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_10_26_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_01_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_01_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_07_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_07_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_10_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_18_2023_8_10_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_18_2023_10_29_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_18_2023_10_29_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,16 +102,15 @@
       <recent name="com.codefish.ui.stepdef" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User can view selected products with their details (1)">
-    <configuration name="Scenario: Negative login functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CodefishApiRunner">
+    <configuration name="Feature: RegisterregularUserApi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/api/RegisterregularUserApi.feature" />
       <option name="GLUE" value="com.codefish.ui.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^Negative login functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative login functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negative login functionality" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RegisterregularUserApi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,15 +122,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Positive login functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Testing register user via API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/Login.feature" />
-      <option name="GLUE" value="com.codefish.ui.stepdef" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/api/RegisterregularUserApi.feature" />
+      <option name="GLUE" value="com.codefish.ui.stepdef com.codefish.api.stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^Positive login functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positive login functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Positive login functionality" />
+      <option name="NAME_FILTER" value="^Testing register user via API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Testing register user via API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Testing register user via API" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -151,22 +162,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can view selected products with their details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ui/AddToCart.feature" />
-      <option name="GLUE" value="com.codefish.ui.stepdef" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="CodefishApiRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chicagoBulls_team1" />
-      <option name="NAME_FILTER" value="^User can view selected products with their details$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can view selected products with their details$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can view selected products with their details" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="com.codefish.api.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.codefish.api.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.codefish.api.runner.CodefishApiRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,24 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodefishApiRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Testing register user via API" />
+        <item itemvalue="Cucumber Java.Feature: RegisterregularUserApi" />
         <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details (1)" />
         <item itemvalue="JUnit.CodefishRunner" />
-        <item itemvalue="Cucumber Java.Scenario: User can view selected products with their details" />
-        <item itemvalue="Cucumber Java.Scenario: Positive login functionality" />
-        <item itemvalue="Cucumber Java.Scenario: Negative login functionality" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684730894394</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Api register regular user">
+      <created>1685145349066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685145349066</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,6 +348,7 @@
     <MESSAGE value="Adding new US (Register)" />
     <MESSAGE value=" Adding CategoryProduct features" />
     <MESSAGE value=" Updating Shopping Cart Assertions" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Updating Shopping Cart Assertions" />
+    <MESSAGE value="Api register regular user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api register regular user" />
   </component>
 </project>
